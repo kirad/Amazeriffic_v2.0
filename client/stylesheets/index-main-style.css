@@ -1,0 +1,35 @@
+main {
+	background: #ffffff;
+	overflow: auto;
+}
+
+main .information {
+	float: left;
+	width: 70%;
+}
+
+main .content {
+	float: right;
+	width: 30%;
+}
+
+main .container .information * {
+	margin: 10px;
+}
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	font-size: 1.6em;
+}
+
+h3 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	font-size: 1.2em; 
+}
+
+main .container .information ul {
+	list-style: circle;
+	padding-left: 10px;
+}

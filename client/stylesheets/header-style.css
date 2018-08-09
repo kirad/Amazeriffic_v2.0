@@ -1,0 +1,33 @@
+header {
+	background: #ffffff;
+	border-bottom: 3px solid #fff7b2;
+	overflow: auto;
+}
+
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 2.5em;
+	margin: 10px;
+}
+
+header .container .navigation nav a {
+	color: #ff6347;
+	text-decoration: none;
+	font-weight: bolder;
+} header .container .navigation nav a:hover {
+	text-decoration: underline;
+} header .container .navigation nav a:visited {
+	color: #6495ed;
+}
+
+header .headline {
+	float: left;
+	width: 70%;
+}
+
+header .navigation {
+	float: right;
+	width: 30%;
+}

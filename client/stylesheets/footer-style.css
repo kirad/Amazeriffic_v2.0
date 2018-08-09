@@ -1,0 +1,35 @@
+footer .contacts {
+	float: left;
+	width: 70%;
+}
+
+footer .sitemap {
+	float: right;
+	width: 30%;
+}
+
+footer .container .contacts .information {
+	padding: 10px;
+}
+
+footer .container .sitemap ul {
+	column-count: 2;
+	padding: 10px;
+}
+
+h4 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.2em;
+	margin: 10px; 	
+}
+
+footer .container .sitemap ul li a {
+	color: #ff6347;
+	text-decoration: none;
+	font-weight: bolder;
+} footer .container .sitemap ul li a:hover {
+	text-decoration: underline;
+} footer .container .sitemap ul li a:visited {
+	color: #6495ed;
+}
+

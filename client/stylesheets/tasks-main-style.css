@@ -1,0 +1,67 @@
+main {
+	background-color: #ffffff;
+	overflow: auto;
+}
+
+main .container .tabs a span {
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background-color: #dddddd;
+	padding: 5px;
+	color: #6495ed;
+	font-weight: bold;
+}
+
+main .container .tabs a span.active {
+	background: #fff7b2;
+}
+
+main .container .tasks-list {
+	background-color: #fff7b2;
+	padding: 5px;
+}
+
+main .container .tasks-list ul li {
+	padding: 5px;
+	margin: 5px;
+	border-radius: 5px;
+	background-color: #dddddd;
+}
+
+main .container .tasks-list h3 {
+	padding: 5px;
+	margin: 15px 5px 5px 5px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	font-weight: bold;
+	color: #6495ed;
+}
+
+main .container .tasks-list p {
+	margin-left: 10px;
+	margin-top: 5px;
+	font-weight: bold;
+	color: #6495ed;
+}
+
+main .container .tasks-list input {
+	margin: 10px;
+	width: 80%;
+}
+
+main .container .tasks-list button {
+	float: right;
+	margin: 10px 10px 0 0;
+	width: 15%;
+	font-weight: bold;
+	background-color: #ffffff;
+	border-color: 2px solid #6495ed;
+	color: #6495ed;
+} main .container .tasks-list button:hover {
+	background-color: #6495ed;
+	border-color: 2px solid #ffffff;
+	color: #ffffff;
+}
