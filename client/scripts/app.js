@@ -90,6 +90,12 @@ var main = function (toDoObjects) {
 				$("main .container .tasks-list button").on("click", function() {
 					var taskText = $taskInputField.val(),
 					tagsText = $tagsInputField.val().split(", ");
+
+					$.post("/todos.json", {}, function(response) {
+						console.log("message was send to server!");
+						console.log(response);
+					});
+
 					if((taskText !== "") && (tagsText !== "")) {
 						toDoObjects.push({"text":taskText, "tags":tagsText});
 						var tasksList = toDoObjects.map(function(obj) {
